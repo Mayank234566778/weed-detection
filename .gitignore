@@ -1,0 +1,36 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python envs
+venv/
+.venv/
+env/
+pip-wheel-metadata/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Model weights and large artifacts
+*.pt
+*.onnx
+*.weights
+runs/
+paper_predictions/
+paper_figures/
+
+# Dataset folders (do not commit large datasets)
+crop_weed_dataset/images/data/
+crop_weed_dataset/images/train/
+crop_weed_dataset/images/valid/
+crop_weed_dataset/images/test/
+
+# Logs
+*.log

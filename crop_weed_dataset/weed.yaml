@@ -1,0 +1,8 @@
+path: .
+
+train: images
+val: images
+test: images
+
+nc: 2
+names: ['crop', 'weed']
